@@ -3,3 +3,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/transactional-test
     username: postgres
     password: admin
+  sql:
+    init:
+      mode: always
